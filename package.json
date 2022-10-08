@@ -6,7 +6,9 @@
   "author": "Hamdan Yuwafi <yuwafi.hamdan365@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "build": "npx tsc",
+    "start": "node ./dist/index.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
